@@ -1,0 +1,129 @@
+*{margin: 0;
+padding: 0;}
+html{
+   font-size: 89px; 
+}
+body {
+    background-color:white;
+    
+}
+
+
+.container{
+ margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+    
+}
+footer, header{
+    height: 54px;
+    width: 100%;
+   
+}
+section{
+    
+    height: 700px;
+
+}
+h2{
+    font-size: 0.32rem;
+    text-align: center
+}
+p {
+  margin-top: 40% ;   
+color: #c3bb38;
+    font-size: 1rem;
+    text-align: center;
+   
+ }
+ 
+ div.border{
+     border:3px solid #c3bb38;
+ }
+   
+.imie{
+    height: 100%;
+    width: 49%;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    
+
+}
+ul.tloList{
+   position: relative;
+   top:-1.9rem;
+   right: -0.6rem;
+      z-index: -1;
+    
+
+}
+div.tloIcons{
+    height: 1rem;
+    width: 0.99rem;
+    background-color: #c3bb38;
+  
+   
+}
+li{
+    display: inline-block;
+    padding-right:0.49rem;
+    padding-top: 0.65rem;
+}
+.tloList>li{
+    padding-right:63px;
+}
+li.firstIcon {
+    padding-left: 48px;
+}
+.lasttlo{
+    padding-left: 5px;
+}
+
+i{
+    font-size: 1.33rem;
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow:-1px 0px 22px 5px rgba(195, 187, 56, 0.88);
+    transition: transform 0.5 easy-in-out;
+
+}
+i:hover,
+.ul.tloList:hover {
+    transform: scale(1.07);
+}
+
+
+.photoSection{
+
+  float: left;  
+  height: 100%;
+  width: 49%;
+  
+}
+
+ 
+.Photo{
+    width: 78%;
+    height: 80%;
+    margin :auto;
+    margin-top: 60px;
+   
+    background-image: url(./images/20181112-DSC00423.jpg);
+    background-size :100%;
+  
+    background-repeat: no-repeat;
+    
+}
+.Photo:hover{
+transform:opacity(0.1);
+    background-image:url(./images/20181112-DSC00420.jpg);
+}
+   
+footer{
+    float:clear both;
+}
+
+
+
